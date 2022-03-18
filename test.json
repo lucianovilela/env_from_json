@@ -1,0 +1,15 @@
+{
+    "var1": "value1",
+    "var2": "value2",
+    "var3": {"value4": "value4", "value5":"value5"}, 
+    "var6":[
+        {"value7": "value7", "value8":"value8"},
+        {"value9": "value9", "value10":"value10"}
+    ],
+    "var11": ["value11", "value12"],
+    "var13": {"value14": "value14", "value15":{
+        "value16": "value16",
+        "value17": "value17"
+    }, "value18": ["value18", "value19"]},
+    "var&%$#)(*&20": "value20"
+}
