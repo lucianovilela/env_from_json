@@ -1,11 +1,26 @@
 {
   "name": "env_from_json",
-  "version": "1.0.0",
+  "version": "0.0.BETA-01",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucianovilela/env_from_json.git"
+  },
+  "keywords": [
+    "dotenv",
+    "env_from_json",
+    "json",
+    "env",
+    ".env",
+    "environment",
+    "variables",
+    "config",
+    "settings"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Luciano Vilela lucianovilela@gmail.com",
   "license": "ISC"
 }
