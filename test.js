@@ -1,7 +1,13 @@
-const { config  }= require('./index');
+const { config } = require('./index');
+test('chamando com debug', () => {
+    config('./test.json', { debug: true });
+});
+test('chamando com uppercase', () => {
 
-config('./test.json', {debug:true});
-config('./test.json', {uppercase:false});
-config(undefined, {debug:true});
+    config('./test.json', { uppercase: false });
+});
+test('chamando com default', () => {
 
-console.log(process.env);
+    config(undefined, { debug: true });
+});
+
