@@ -8,7 +8,7 @@ This Node.js module exports a `config` function that can be used to create envir
 To install this module, run the following command:
 
 ```
-npm install env-from-json
+npm install env_from_json
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ npm install env-from-json
 To use this module, first require it in your code:
 
 ```javascript
-const { config } = require('env-from-json');
+const { config } = require('env_from_json');
 ```
 
 Then, call the `config` function with an object or a file path as the first argument:
