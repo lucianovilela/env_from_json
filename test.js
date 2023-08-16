@@ -1,4 +1,5 @@
-const { config } = require('./config'); // assuming the provided code is in a file named 'config.js'
+const { config } = require('./index'); // assuming the provided code is in a file named 'config.js'
+const  fs = require('fs')
 const assert = require('assert');
 
 describe('config', () => {
